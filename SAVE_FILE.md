@@ -1,6 +1,8 @@
 # Important note
 
-The data saved in this file is little-endian, meaning that 0xabcd = $c * 16^3 + d * 16^2 + a * 16^1 + b * 16^0$. The addresses in this list are big-endian.
+The data saved in this file is little-endian, meaning that `0xabcd` $= c \times 16^3 + d \times 16^2 + a \times 16^1 + b \times 16^0$.
+
+The addresses in this list are big-endian.
 
 # Locations
 
