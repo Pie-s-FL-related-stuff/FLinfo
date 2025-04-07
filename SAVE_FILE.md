@@ -17,6 +17,13 @@ Identified locations.
 | 0x0001fcd0 | 4      | Money earned               | All-time money earned.                                                                                                                                                                                                                     |
 | 0x00021f30 | 3      | "New" lives                | Seems to be an array of bools representing whether or not a player has checked out the "New" lives unlocked. True means that they **haven't**. Lives are sorted by "class" (1st byte = combat, 2nd byte = crafting, 3rd byte = gathering). |
 | 0x00021f4a | 14?    | "New" skills/bliss bonuses | Seems to be an array of bools representing whether or not a player has checked the "New" skills/bliss bonuses/etc unlocked. True means that they **have**.                                                                                 |
+# General areas
+
+General identified areas that need more research. The data in this table may not be accurate.
+
+| Around address | Length | Value | Notes |
+| - | - | - | - |
+| 0x0002E010 | 45 | Bliss challenge status | This looks like it contains 2 infos: 1) has the quest been "celebrated" yet? (text banner on screen); 2) has the bliss been claimed. It doesn't contain whether or not a quest has been completed. |
 
 # Data structures
 
